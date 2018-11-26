@@ -1,0 +1,153 @@
+/* */
+body {
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+margin: 0;
+text-align: center;
+}
+
+h2, h4 {
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* header section */
+header {
+  position: fixed;
+  margin-left: 10px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  text-decoration: underline;
+  flex: 1;
+}
+
+nav a {
+  color: seashell;
+  margin-left: 30px;
+  margin-right: 5px
+}
+
+/* main body section */
+.body {
+    padding-top: 69px;
+    padding-left: auto;
+    margin: 0;
+}
+
+/* mission section */
+#mission {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("../images/img-mission-background.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.missiontext {
+ background-color: black;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
+/* featured teas section */
+#featured_tea {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.ftcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding-top:  10px;
+}
+
+.teas img {
+  width: 300px;
+  height: 200px;
+  margin: 0px 10px;
+}
+
+.tea_names {
+  width: 300px;
+  margin: 0px 25px;
+}
+
+.tea_names p {
+margin-top: 10px;
+}
+
+/* location section */
+#locations {
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#locations h2 {
+  text-align: center;
+  margin: 0 0;
+}
+
+.lcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.litem {
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  height: 200px;
+}
+
+/* footer section */
+footer {
+  margin-left: 20px;
+  text-align: left;
+}
